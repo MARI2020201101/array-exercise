@@ -18,7 +18,7 @@ public class Exercise7 {
         }
         for(int i =0 ;i<star.length;i++){
             for(int j=0; j<star[0].length;j++){
-                result[-j+3][i]=star[i][j];
+                result[j][star.length-i-1]=star[i][j];
             }
         }
         System.out.println();
